@@ -1,8 +1,12 @@
 {
-  "name": "revcharts",
-  "private": true,
-  "version": "1.0.0",
-  "type": "module",
+  "name": "dynamiccharts",
+  "private": false,
+  "version": "1.0.11",
+"description": "A revolutionary Vue 3 library that dynamically creates and updates a chart based on API calls.",
+  "main": "dist/ApiChart.umd.js",
+  "module": "dist/ApiChart.es.js",
+  "files": ["dist"],
+
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -17,5 +21,13 @@
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.0.5",
     "vite": "^5.3.4"
+  },
+ 
+  "author": "Imran Khaliq",
+  "email": "imran.smartinsider@gmail.com",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:imransmartinsider/revcharts.git"
   }
 }
