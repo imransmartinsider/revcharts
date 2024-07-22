@@ -2,7 +2,7 @@
   "name": "dynamiccharts",
   "private": false,
   "version": "1.0.11",
-"description": "A revolutionary Vue 3 library that dynamically creates and updates a chart based on API calls.",
+"description": "A revolutionary Vue 3 library that dynamically creates and updates a Chart based on API calls.",
   "main": "dist/ApiChart.umd.js",
   "module": "dist/ApiChart.es.js",
   "files": ["dist"],
