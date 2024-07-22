@@ -1,5 +1,4 @@
-import { createApp } from 'vue'
-import './style.css'
-import App from './App.vue'
+import { createApp } from 'vue';
+import DynamicChart from './components/DynamicChart.vue';
 
-createApp(App).mount('#app')
+createApp(DynamicChart).mount('#app');
