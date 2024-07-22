@@ -36,7 +36,7 @@ Chart Configuration
 npm i dynamiccharts
 
 import dynamiccharts from 'dynamiccharts'
-import './components/styles.css';
+import "dynamiccharts/dist/style.css";
 
 <dynamiccharts />
 
