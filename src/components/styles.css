@@ -1,0 +1,105 @@
+.chart-container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; /* Align items to the start */
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #f4f4f4; /* Light background color */
+  }
+  
+  .controls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px; /* Added top margin */
+  }
+  
+  .controls-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 20px; /* Space below controls */
+  }
+  
+  .api-input,
+  .chart-type-select,
+  .chart-input,
+  .fetch-button,
+  .retry-button,
+  .save-button,
+  .load-button,
+  .download-button {
+    margin-bottom: 10px;
+    padding: 12px 15px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .api-input {
+    width: 300px;
+    max-width: 500px;
+  }
+  
+  .chart-type-select {
+    width: 200px;
+    max-width: 300px;
+  }
+  
+  .chart-input {
+    width: 200px;
+    max-width: 300px;
+  }
+  
+  .fetch-button,
+  .retry-button,
+  .save-button,
+  .load-button,
+  .download-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+  }
+  
+  .fetch-button:hover,
+  .retry-button:hover,
+  .save-button:hover,
+  .load-button:hover,
+  .download-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .fetch-button:focus,
+  .retry-button:focus,
+  .save-button:focus,
+  .load-button:focus,
+  .download-button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5);
+  }
+  
+  .error-message {
+    color: #ff4d4f; /* Red color for error messages */
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  
+  .loading-indicator {
+    color: #007bff;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  .chart-canvas {
+    width: 100%;
+    height: 100%;
+    max-width: 1000px; /* Optional: Limits the width of the chart */
+  }

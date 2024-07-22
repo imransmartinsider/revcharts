@@ -33,11 +33,12 @@ Chart Configuration
 ## Installation
 
 ```sh
-npm install revCharts
+npm i dynamiccharts
 
-import DynamicChart from 'revCharts';
+import dynamiccharts from 'dynamiccharts'
+import './components/styles.css';
 
-<DynamicChart />
+<dynamiccharts />
 
 give any Json Api Address in checkbox like this 'https://jsonplaceholder.typicode.com/posts' and click Fetch
 
